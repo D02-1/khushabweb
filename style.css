@@ -1,15 +1,18 @@
 
-body{
+div {
+    flex-direction: row;
+}
+/* body{
     direction: ltl;
     margin: 0;
     padding: 0;
-}
+} */
 ul,li{
     padding: 0;
     margin: 0;
 }
 .container{
-   width: 1500px; 
+   width: 100%; 
    margin: auto;
 }
 
@@ -29,11 +32,14 @@ header nav ul li{
     display: inline-block;
     margin: 0  20px 0 20px;
     line-height: 3;
+    /* margin: auto; */
 }
 header nav ul li a{
     text-decoration: none;
 color: #1b1009;
-font-size: 35px;}
+font-size: auto;
+
+}
 
 header nav .logo {
     height: 50%;
@@ -45,7 +51,9 @@ header nav .logo img{
 #s1{
 
     font-size: xx-large;
-    color: lightcoral;
+    color: lightcoral;a{
+        font-size: 30px;
+    }
     background-color: rgb(100, 149, 237,0.3);
 }
 
@@ -62,6 +70,6 @@ p{
     
 }
 
-a{
+/* a{
     font-size: 30px;
-}
+} */
