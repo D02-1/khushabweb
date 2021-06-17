@@ -66,10 +66,24 @@ color: tomato;
 p{
 
     font-size: 30px;
+    
     background-color: rgb(100, 149, 237,0.3);
     
 }
 
-/* a{
-    font-size: 30px;
-} */
+.container a:hover
+{
+    background-color: blue;
+    color:tomato;
+}
+.s20
+{
+    width: 250px;
+    font-size: xx-large;
+
+}
+.s20:hover
+{
+    background-color: tomato;
+
+}
